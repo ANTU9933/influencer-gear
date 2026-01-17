@@ -38,7 +38,7 @@ nav li a {
   font-weight: 500;
 }
 #banner {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 #banner .banner-container {
   width: 85%;
@@ -71,6 +71,7 @@ nav li a {
 .banner-text button {
   font-size: 16px;
   color: white;
+  background-color: rgba(211, 36, 36, 0.96);
   font-weight: bold;
   margin-top: 16px;
   padding: 10px 56px 10px 25px;
@@ -83,7 +84,7 @@ nav li a {
   vertical-align: text-bottom;
 }
 .website {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .website .website-list {
   width: 85%;
@@ -92,17 +93,49 @@ nav li a {
   justify-content: space-between;
   box-shadow: 0cqw;
 }
-.website .website-list img{
+.website .website-list img {
   width: 85px;
   margin-right: 40px;
   margin-left: 40px;
 }
-.box{
-   margin-top: 100px;
-   text-align: center;
+.box {
+  margin-top: 100px;
+  text-align: center;
 }
-.box .box-contaner{
-   width: 85%;
+.box .box-contaner {
+  width: 85%;
   max-width: 1100px;
   margin: 0px auto;
+}
+.box .box-contaner .container-header {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+
+  text-align: left;
+}
+.card .card-details {
+  width: 330px;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.141);
+}
+.card-details h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.card-details h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.card-details p {
+  font-size: 12px;
+  font-weight: 500;
 }
